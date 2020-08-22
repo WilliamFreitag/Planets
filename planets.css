@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow:hidden;
+}
+
+#settings{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #AAAAAA;
+}
+
+#pausedIndicator{
+  position:fixed;
+  bottom: 0;
+  color: #AAAAAA;
+}
+
+#universe{
+  position: absolute;
+  background-color: #003366;
+  height: 100%;
+  width: 100%;
+}
+
+.planet{
+  border-radius: 100%;
+}
